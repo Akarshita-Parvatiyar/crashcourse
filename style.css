@@ -1,0 +1,19 @@
+.one{
+    padding: 15px;
+    border: 6px dotted purple;
+}
+.container-2{
+    border: 6px dotted red;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+}
+.flex-box-container-2{
+    display: flex;
+    border: 3px dashed blue;
+}
+img{
+    height: 100px;
+    width: 120px;
+}
