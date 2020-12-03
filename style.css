@@ -12,8 +12,14 @@
 .flex-box-container-2{
     display: flex;
     border: 3px dashed blue;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 img{
-    height: 100px;
-    width: 120px;
+    height: 180px;
+    width: 200px;
+}
+.flex-box-container-2 img{
+    border: 3px dashed green;
+    padding: 10px;
 }

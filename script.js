@@ -11,3 +11,10 @@ function yourageinday(){
 function reset(){
     document.getElementById('result').remove();
 }
+
+function generatecat(){
+    var image = document.createElement('img');
+    var div = document.getElementById('cat-gen');
+    image.src="puppy-1207816_640.jpg";
+    div.appendChild(image);
+}
